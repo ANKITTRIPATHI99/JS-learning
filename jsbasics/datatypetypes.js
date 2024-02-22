@@ -48,4 +48,30 @@ const myfunction = function(){
 //        Object  =>  object
 
 
+// ********************************************************************************************************
+
+// Two types of Memory - 
+// 1. Stack(Primitive) - Here we get copy of variable
+// 2. Heap (non-primitive) - here we get reference variable/original var.
+
+let myname = "Ankit"
+anothername = myname
+anothername = "Tripathi"
+
+console.log(myname)
+console.log(anothername)
+
+let user1 = {
+    email : "ankittripathi@google.com",
+    password : "ank123"
+}
+
+let user2 = user1
+
+user2.email= "hello@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
+
 
