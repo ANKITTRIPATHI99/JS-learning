@@ -7,7 +7,7 @@ console.log(3
 
 
 let name = "Ankit"  //string
-let age = 20
+let age = 200
 let isloggedin = true
 
 //Primitive datatypes
