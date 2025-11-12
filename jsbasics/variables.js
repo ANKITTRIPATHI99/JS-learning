@@ -2,9 +2,9 @@ const accountId = 1234
 let  accountEmail = "tripathiankkit991@gmail.com"
 var accountPassword = "hello123"
 accountCity = "delhi"
-let accountState=10;
+let accountState=0;
 
- accountEmail = "tripathi@gmail.com"
+ accountEmail = "tripathiankit7991@gmail.com"
   accountPassword = "Hi123"
   accountcity = "noida"
 
